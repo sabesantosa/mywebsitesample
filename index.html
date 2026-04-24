@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<!-- Link CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <button onclick="scrollToSection('intro')">Home Page</button>
+    <button onclick="scrollToSection('contact')">About Me</button>
+    <button onclick="scrollToSection('skills')">Projects</button>
+    <button onclick="scrollToSection('social')">Contacts</button>
+</header>
+
+<section id="landing" class="active">
+    <h1>✨ Welcome to My Portfolio ✨</h1>
+    <p>Discover my skills, achievements, and social presence!</p>
+</section>
+
+<section id="intro">
+    <div class="card">
+        <img src="image/profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Personal Introduction</h1>
+       
+        <p>Hello! I’m Samuel B Santos. As a student, I am passionate about learning and developing my skills, especially in technology and problem-solving. I strive to grow every day by taking on new challenges and gaining experience.  </p>   
+
+        <a href="files/resume.pdf.pdf" download class="resume-btn">Download Resume</a>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <div class="about-section">
+                <h3>Background</h3>
+                <p>I'm a dedicated student with a passion for technology and innovation. Currently focused on expanding my knowledge in web development and problem-solving, I'm committed to building a strong foundation for a career in tech.</p>
+            </div>
+            <div class="about-section">
+                <h3>Interests & Hobbies</h3>
+                <p>I enjoy coding and creating digital solutions, exploring new technologies, and staying updated with industry trends. Beyond tech, I appreciate content creation, connecting with people through social media, and constantly learning new skills.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h1>Projects</h1>
+        <p>I'd like to share some of my projects...</p>
+        <div class="image-gallery">
+            <div class="image-item">
+                <img src="image/sample1.jpg" alt="Skills Image" class="skills-pic">
+                <p class="image-caption">Web Development Skills - Demonstrating my proficiency in building modern, responsive websites using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="image-item">
+                <img src="image/sample2.jpg" alt="Projects Image" class="project-pic">
+                <p class="image-caption">Project Showcase - Examples of completed projects that highlight my ability to solve real-world problems and deliver quality solutions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="social">
+    <div class="card">
+        <h1>Social Media</h1>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/18rwK8pDw1/" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com/@samsantosssss" target="_blank">TikTok</a>
+            <a href="https://www.instagram.com/itssam_boi?igsh=MWFhZ2d2enA5cDc0Yg==" target="_blank">Instagram</a>
+        </div>
+    </div>
+</section>
+
+<!-- Link JS (IMPORTANT: put at bottom) -->
+<script src="script.js"></script>
+
+</body>
+</html>
